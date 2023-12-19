@@ -45,7 +45,7 @@ To use this code--
 1) Ensure all necessary data files are in the same directory. This includes:
     - All .parquet files by SERIES_ID
     - train_events.csv
-    - train_series.parquet
+    - train_series.parquet (not needed if all {series_id} parquet files are already separated) as in first bullet point)
     - test_series.parquet
     - These can all be unzipped from Data/data.zip
 2) Change path names to paths where data is located in the PATHS class in the preprocessing section. MAIN_DIR and SPLIT_DIR are the same if all above files are in the same directory.
