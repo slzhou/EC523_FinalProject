@@ -3,12 +3,14 @@ README - Sleep State Detection using LSTM and U-Net with Attention --
 This project involves developing a deep learning model for detecting sleep and wake states using accelerometer data. The core of the model is a combination of LSTM (Long Short-Term Memory) and U-Net architectures, enhanced with attention gating 
 mechanisms for improved time-series analysis.
 
+Competition link: https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states
+
 
 Files and Directories--
 - {series_id}_test_series.parquet
     - All data files divided by series_id to deal with mismatched sequence lengths when batching later on.
 - train_events.csv: CSV file containing training event data.
-- train_series.parquet, test_series.parquet: Parquet files with training and testing series data.
+- train_series.parquet, test_series.parquet: Parquet files with training and testing series data. May need to download train_series.parquet from kaggle as it is large but if all {series_id}_test_series.parquet files are present then this is not needed.
 
 
 
