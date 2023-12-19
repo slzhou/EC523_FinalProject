@@ -32,7 +32,7 @@ Components--
 - Evaluation
 
 Model Architecture--
-- FOUND IN THE 'FINAL MODEL' section of our notebook.
+- Found in the 'FINAL MODEL' section of our notebook.
 - ResidualBiLSTM: A custom LSTM module with residual connections and bidirectional processing capability.
 - Attention Mechanisms: Implemented to focus the model on relevant sequences, crucial for detecting sparse events in the data.
 - LSTMNET and LSTMAttnUNET: Core model classes that integrate LSTM with U-Net architecture, employing attention mechanisms for enhanced sequence modeling.
