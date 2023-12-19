@@ -47,6 +47,7 @@ To use this code--
     - train_events.csv
     - train_series.parquet
     - test_series.parquet
+    - These can all be unzipped from Data/data.zip
 2) Change path names to paths where data is located in the PATHS class in the preprocessing section. MAIN_DIR and SPLIT_DIR are the same if all above files are in the same directory.
 3) Run the notebook up until just after parameter definition. That is, the first cell after the "Training" header.
 4) Go through the notebook and pick a model to train. The final model is labeled as 'FINAL MODEL' in the section header.
