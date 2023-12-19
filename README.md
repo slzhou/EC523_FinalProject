@@ -3,6 +3,8 @@ README - Sleep State Detection using LSTM and U-Net with Attention --
 This project involves developing a deep learning model for detecting sleep and wake states using accelerometer data. The core of the model is a combination of LSTM (Long Short-Term Memory) and U-Net architectures, enhanced with attention gating 
 mechanisms for improved time-series analysis.
 
+Team members: Sam Zhou, Laura Carlton, Erynne San Antonio, Masha Lazou
+
 Competition link: https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states
 
 
